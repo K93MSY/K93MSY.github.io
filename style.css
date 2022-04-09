@@ -1,0 +1,41 @@
+.background{
+            background-color:#000000;
+            background-size:cover;
+            background-position:center center;
+            background-attachment:fixed;
+            background-image: url('./mt.jpg');
+}
+.text{
+            animation: fadeIn 4s,fadeIn2 6s;
+            font-family:"Noto Serif", serif;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-weight: 900;
+            font-size: 5vw;
+            pointer-events: none;
+}
+@keyframes fadeIn {
+
+  0% {opacity: 0}
+
+  100% {opacity: 1}
+
+}
+@keyframes fadeIn2 {
+
+  0% {top: 40%}
+
+  100% {top: 30%}
+
+}
+@keyframes fadeIn3 {
+
+  0% {top: 60%}
+
+  100% {top: 53%}
+
+}
