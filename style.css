@@ -6,16 +6,17 @@
             background-image: url('./mt.jpg');
 }
 .text{
+            display:table;
             animation: fadeIn 4s,fadeIn2 6s;
             font-family:"Noto Serif", serif;
             position: absolute;
             top: 30%;
-            left: 51.8%;
+            margin:0 50%;
             transform: translate(-50%, -50%);
             text-align: center;
             color: white;
             font-weight: 900;
-            font-size: 350%;
+            font-size: 400%;
 }
 @keyframes fadeIn {
 

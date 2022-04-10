@@ -9,7 +9,14 @@ window.location.href = 'https://github.com/K93MSY/';
 
 function btdocument(){
 console.log('open document');
-iziToast.success({ title: 'Document Loaded', message: 'in preparation' });
+iziToast.success({ title: 'Document Loading', message: 'in preparation' });
+
+var dochtml = document.getElementById('document');
+
+var new_element = document.createElement('h1');
+new_element.textContect = 'Document';
+dochtml.appendChild(new_element);
+
 }
 
 function btmusic(){
