@@ -8,3 +8,6 @@
 - [x] [google fonts](https://fonts.google.com/)
 
 ### スマホ未対応
+
+## Minecraft Server
+#### Ip&Port [54.39.221.139:2017]
