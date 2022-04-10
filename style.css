@@ -16,7 +16,6 @@
             color: white;
             font-weight: 900;
             font-size: 350%;
-            pointer-events: none;
 }
 @keyframes fadeIn {
 
