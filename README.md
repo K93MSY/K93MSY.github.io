@@ -1,6 +1,4 @@
-# K93MSY.github.io
-
-新しいものに変更予定
+# K93MSY.github.io OLD
 
 ## 使用したライブラリなど
 - [x] [iziToast](https://izitoast.marcelodolza.com/)
