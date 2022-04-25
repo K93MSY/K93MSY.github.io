@@ -1,5 +1,6 @@
 body{
 overflow-x: hidden;
+scrollbar-width: none; 
 }
 .head{
     top:-40px;
