@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>K93MSY:)</title>
+</head>
+<body>
+    <span id="hed">K93MSY</span>
+    <ul>
+        <span id="marker"></span>
+        <li><a href="./link.github.html">Github</a></li>
+        <li><a href="./link.discord.html">Discord</a></li>
+        <li><a href="./link.blog.html">Blog</a></li>
+        <!--準備中！！！
+        <li><a href="./link..html"></a></li>
+        <li><a href="./link..html"></a></li>
+        <li><a href="./link..html"></a></li>
+        -->
+    </ul>
+    <script>
+let marker = document.querySelector('#marker');
+let item = document.querySelectorAll('ul li a');
+
+function Indicator(e){
+    marker.style.top = e.offsetTop+'px';
+    marker.style.width = e.offsetWidth+'px';
+}
+
+item.forEach(element => {
+    element.addEventListener('mousemove',(e) => {
+        Indicator(e.target);
+    })
+})
+/*
+let hed = document.querySelector('#hed');
+let itee = document.getElementById('#hed');
+function runhed(){
+    hed.style.transform = 'rotate(30deg)'; 
+}
+itee.addEventListener('mouseover',runhed)
+*/
+    </script>
+</body>
+</html>

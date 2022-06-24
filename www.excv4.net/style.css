@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+}
+ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    position: relative;
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+}
+#marker{
+    position: absolute;
+    top: 0;
+    margin-top: -5px;
+    /*width:100px;*/
+    height: 50px;
+    /*background: #f00;*/
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#marker::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-top:4px solid #30ff75;
+    border-right: 4px solid #30ff75;
+    transform: rotate(45deg) translate(-20px,20px);
+}
+#marker::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-top:4px solid #30ff75;
+    border-right: 4px solid #30ff75;
+    transform: rotate(225deg) translate(-20px,20px);
+}
+#hed{
+    transform: rotate(0deg);
+    position: absolute;
+    top:20%;
+    font-size: 7vh;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 800;
+    transition: 1s;
+    background: radial-gradient(circle at bottom right,#004799, #75b5ff 70%);
+    border-radius: 30% 15% 30% 15%;
+    color:#fff;
+    opacity: 1;
+    pointer-events: none;
+}
