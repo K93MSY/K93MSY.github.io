@@ -33,6 +33,7 @@ ul li a{
 }
 #marker{
     position: absolute;
+    width:98px;
     top: 10px;
     margin-top: -5px;
     /*width:100px;*/
